@@ -81,15 +81,16 @@ By using PCA and reducing the dimensions of the second dataframe made of value t
     R2 score is 0.6019543580919947
     
 ## --UPDATE @ 11:48pm--
-    I was able to get the Linear Model and Quadratic Models to reduce their RMSE measure with the train set error being slightly worse than the test set RMSE measure.
+I was able to get the Linear Model and Quadratic Models to reduce their RMSE measure with the train set error being slightly worse than the test set RMSE measure.
     
-    NOTE: This does not apply to the Cubic Model for some reason
+<b>NOTE: This does not apply to the Cubic Model for some reason</b>
 
 ## Short Comings:
-    Because I got back to working on this after my adjunct and sending a good portion of my day looking for Higher Order Neural Network Results and in the worse case an alternative project that will fit within the time constraint, I was unable to add the remaining features that I 
-    discussed with the Professor
-    i.   The Regularization Terms
-    ii.  The SVM, due to fixing the training vs test error problem
-    iii. Potential using dimensionally reduction or apply math functions on certain features to reduce their complexity
+Because I got back to working on this after my adjunct and sending a good portion of my day looking for Higher Order Neural Network Results and in the worse case an alternative project that will fit within the time constraint, I was unable to add the remaining features that I 
+ discussed with the Professor
+1.   The Regularization Terms
+2.  The SVM, due to fixing the training vs test error problem
+3. Potential using dimensionally reduction or apply math functions on certain features to reduce their complexity
     
-    It was still really cool to try to apply what I learned in Class freely on this Dataset.
+
+<b>It was still really cool to try to apply what I learned in Class freely on this Dataset. I would highly recommend anyone interested in Data Science try it</b>
