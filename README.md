@@ -8,20 +8,18 @@
 # Description of my process
 1. Feature Selection:
     ![MEDV_Distribution_Plot](Images/myplot.png "MEDV Distribution Plot")
-    >>After loading in the Boston Housing Data and importing the necessary libraries for the duration
+    > After loading in the Boston Housing Data and importing the necessary libraries for the duration
     of the project. I began by separating the data into different portions (Rest of the Data(13/14 columns), Label / Target Data (14th column)).
     I immmediately tested to see if any of the data was empty or NAN. After seeing that all the data was 
     filled out, I printed the distribution/histogram plot of the MEDV (target)  and found it to be 
     pretty normally distributed with little outliers in the  data. 
 2. Feature Transformation:
     ![Heat_Map](Images/heat_map.png "Heat Plot")
-    >> after realizing the data was fine, I plotted
+    > after realizing the data was fine, I plotted
     the correlation matrix in the form of a heatmap and selected the features that were highly correlated with the
     target value MEDV. I created X which is a dataframe that contains the most highly correlated values(w.r.t Target).
     I began to train_test_split the dataset into thee required 70 / 30 split. This is where I began to fit and train the data in
-    various models     
-
-> My best results were the following: 
+    various models
 
 # Day 1 Results 
 ## Time Invested: (11/7/2018 7pm - 11/8/2018 2:15am)
